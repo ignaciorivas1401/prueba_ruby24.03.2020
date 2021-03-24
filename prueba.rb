@@ -41,7 +41,7 @@ def request(url, api_key)
 end
 
 url = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key="
-api_key = "DEMO_KEY"
+api_key = "Y5GEgRMBQoYyjKTEECZlbRV6ChUc4DPkI2t0DJ32"
 response = request(url, api_key)
 photos_count(response)
 build_web_page(response)
